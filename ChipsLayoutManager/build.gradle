@@ -31,7 +31,6 @@ ext {
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
 
     testBuildType "debug"
 
@@ -67,6 +66,7 @@ android {
         }
     }
 
+    buildToolsVersion '27.0.3'
 }
 
 task androidJavadocs(type: Javadoc) {
